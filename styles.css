@@ -727,9 +727,6 @@ footer{
   .packing-intro{
     width: 80%;
   }
-  .packing-intro-img{
-    right: 0;
-  }
   .packing-intro-img img{
     transform: rotate(0);
   }
