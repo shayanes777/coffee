@@ -1,14 +1,14 @@
 
 @font-face {
     font-family: 'vazir';
-    src: url('../fonts/Vazir-Regular.ttf') format('truetype');
-    src: url('../fonts/Vazir-Regular-FD.ttf') format('truetype');
-    src: url('../fonts/Vazir-Regular.eot') format('embedded-opentype'),
-    url('../fonts/Vazir-Regular-FD.eot') format('embedded-opentype'),
-    url('../fonts/Vazir-Regular-FD.woff2') format('woff2'),
-     url('../fonts/Vazir-Regular.woff2') format('woff2'),
-     url('../fonts/Vazir-Regular-FD.woff') format('woff'),
-      url('../fonts/Vazir-Regular.woff') format('woff');
+    src: url('Vazir-Regular.ttf') format('truetype');
+    src: url('Vazir-Regular-FD.ttf') format('truetype');
+    src: url('Vazir-Regular.eot') format('embedded-opentype'),
+    url('Vazir-Regular-FD.eot') format('embedded-opentype'),
+    url('Vazir-Regular-FD.woff2') format('woff2'),
+     url('Vazir-Regular.woff2') format('woff2'),
+     url('Vazir-Regular-FD.woff') format('woff'),
+      url('Vazir-Regular.woff') format('woff');
       font-display: block;
 }
 *{
