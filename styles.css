@@ -20,6 +20,9 @@
 :root{
     --black : #000;
 }
+body{
+    overflow-x : hidden;
+}
 a{
     text-decoration: none;
 }
