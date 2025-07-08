@@ -742,7 +742,7 @@ footer{
     justify-content: center;
   }
   .packingSwiper{
-    width: 270px;
+    width: 90%;
     height: 360px;
     margin-bottom: 4rem;
   }
@@ -769,9 +769,6 @@ footer{
     }
     .footer-content .socials a {
     margin: 0 1.4rem;
-    }
-.packingSwiper{
-      width: 80%;
     }
 }
 @media screen and (max-width: 400px){
