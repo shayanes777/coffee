@@ -785,6 +785,9 @@ footer{
   .search-login{
     display: none;
   }
+    .main-title{
+        margin : 1rem 0 2rem 0;
+    }
   .catrgories-inner{
     width: 90%;
   }
