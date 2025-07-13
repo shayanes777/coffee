@@ -90,3 +90,50 @@ const swiper = new Swiper('.first-procuts-swiper', {
       }
     });
   });
+
+
+  
+  const swiper3 = new Swiper(".coffee-banner-swiper", {
+    loop: true,
+    slidesPerView: 1.2,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: true
+    },
+    spaceBetween: 20,
+    centeredSlides: true,
+    breakpoints: {
+      500:{
+        slidesPerView: 1.5,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false
+        },
+      },
+      650:{
+        slidesPerView: 2,
+        spaceBetween: 50,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+        },
+      },
+      1050:{
+        slidesPerView: 3,
+        spaceBetween: 50,
+        centeredSlides: false,
+      },
+      1300:{
+        slidesPerView: 4,
+        spaceBetween: 50,
+      }
+    },
+    pagination: {
+      el: ".coffee-banner-swiper-pagination",
+      clickable: false,
+    },
+    
+  });
