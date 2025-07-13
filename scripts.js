@@ -6,8 +6,8 @@ const swiper = new Swiper('.first-procuts-swiper', {
       spaceBetween: 30,
       breakpoints: {
         200: {
-          slidesPerView: 2,
-          spaceBetween: 20
+          slidesPerView: 1,
+          spaceBetween: 50,
         },
         400: {
           slidesPerView: 2,
